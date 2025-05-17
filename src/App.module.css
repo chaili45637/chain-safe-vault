@@ -1,0 +1,158 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #0052cc;
+}
+
+.header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.button {
+  background-color: #0052cc;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.button:hover {
+  background-color: #003d99;
+}
+
+.alert {
+  background-color: #ffefc2;
+  color: #a15700;
+  padding: 1rem;
+  border: 1px solid #e2b800;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.statusPanel {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.statusPanel h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.statusPanel p {
+  margin: 0.4rem 0;
+}
+
+.actions {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.actions h2 {
+  margin-bottom: 1rem;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.inputGroup input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputGroup button {
+  background-color: #00a86b;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputGroup button:hover {
+  background-color: #007a52;
+}
+
+.keepAliveBtn {
+  background-color: #0077cc;
+  padding: 0.7rem 1.4rem;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.keepAliveBtn:hover {
+  background-color: #005fa3;
+}
+
+.messages {
+  margin-bottom: 1.5rem;
+}
+
+.success {
+  background-color: #d9fbd9;
+  color: #256029;
+  padding: 0.75rem;
+  border-left: 4px solid #3ac13a;
+  margin-bottom: 0.75rem;
+  border-radius: 5px;
+}
+
+.error {
+  background-color: #ffe6e6;
+  color: #cc0000;
+  padding: 0.75rem;
+  border-left: 4px solid #ff0000;
+  border-radius: 5px;
+}
+
+.adBanner {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.adBanner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #888;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
